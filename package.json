@@ -14,7 +14,9 @@
     "dist/*.{js,css}"
   ],
   "dependencies": {
+    "autoprefixer": "^9.7.4",
     "lodash": "^4.17.15",
+    "tailwindcss": "^1.2.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

@@ -34,5 +34,11 @@ module.exports = {
         'my-lib': resolve(__dirname, '../../src')
       }
     }
+  },
+  postcss: {
+    plugins: [
+      require("autoprefixer"),
+      require("tailwindcss")("./docs/.vuepress/tailwind.config.js")
+    ]
   }
 }

@@ -1,6 +1,6 @@
 <template>
-  <div class="component-a">
-    <p>Load time by moment: {{ loadTime }}.</p>
+  <div class="bg-gray-300 p-10">
+    <p class="text-xl">Load time by momentJS: {{ loadTime }}.</p>
     <p>Fill array by lodash: {{ filledArray }}</p>
   </div>
 </template>
@@ -20,14 +20,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.component-a {
-  background-color: lightgrey;
-  padding: 10px;
-  border-radius: 3px;
-  button {
-    font-weight: bold;
-  }
-}
-</style>
