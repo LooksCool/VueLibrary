@@ -23,7 +23,8 @@ module.exports = {
         collapsable: false,
         children: [
           'components/component-a',
-          'components/component-b'
+          'components/component-b',
+          'components/datepicker'
         ]
       }
     ]
