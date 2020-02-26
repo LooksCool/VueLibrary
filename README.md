@@ -24,6 +24,9 @@ npm run build
 
 # build the doc app, available under docs/.vuepress/dist
 npm run docs:build
+
+# Run the unit tests
+npm run test:unit
 ```
 
 ## How it works

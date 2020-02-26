@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "vue-cli-service build --report --target lib --name my-lib ./src/index.js",
+    "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "docs:build": "vuepress build docs",
     "docs:dev": "vuepress dev docs"
@@ -24,13 +25,16 @@
     "@vue/babel-preset-app": "^4.1.1",
     "@vue/cli-plugin-babel": "^4.1.1",
     "@vue/cli-plugin-eslint": "^4.1.1",
+    "@vue/cli-plugin-unit-jest": "^4.2.2",
     "@vue/cli-service": "^4.1.1",
+    "@vue/test-utils": "1.0.0-beta.31",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^6.0.1",
     "moment": "^2.24.0",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
+    "sinon": "^9.0.0",
     "vue-template-compiler": "^2.6.11",
     "vuepress": "^1.2.0"
   },
